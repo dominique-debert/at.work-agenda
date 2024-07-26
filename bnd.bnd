@@ -1,0 +1,7 @@
+Bundle-Name: agiir-agenda
+Bundle-SymbolicName: agiir.agenda
+Bundle-Version: 1.0.0
+Bundle-Activator: agiir.agenda.portlet.Activator
+Export-Package: agiir.agenda.constants
+Web-ContextPath: /agiir-agenda
+-includeresource: package.json

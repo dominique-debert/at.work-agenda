@@ -1,0 +1,20 @@
+{
+	"presets": [
+		["es2016"],
+		"react",
+		"env",
+		"stage-0"
+	],
+	"compact": true,
+	"ignore": ["node_modules", "build"],
+	"plugins": [
+		"babel-plugin-transform-class-properties",
+		"syntax-dynamic-import",
+		["transform-runtime", {
+			"polyfill": false,
+			"regenerator": true
+		  }
+		]
+		
+	]
+}
